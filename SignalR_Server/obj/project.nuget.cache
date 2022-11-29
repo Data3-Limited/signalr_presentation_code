@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i9TeswTmdrpJSqFbjCaZv8fyh7YBBG42wlKMk20founvvVB572zQSnX0d4GF3dRdmeBV0jMEL4MIw840TjExZQ==",
+  "dgSpecHash": "SaImMw4GS9SDXmaBKNn5URu2Dr59ghDTYBcv2m3RPF+Gc3QDqSg3iafy6YDN+EUE+hDOLu271R0RrNkohmnG4w==",
   "success": true,
-  "projectFilePath": "H:\\bak\\1-3-22\\sheru\\uni\\programming\\TAPP SignalR\\SignalR Server\\TAPP_SignalR_Server.csproj",
+  "projectFilePath": "H:\\bak\\1-3-22\\sheru\\uni\\programming\\TAPP SignalR\\SignalR_Server\\TAPP_SignalR_Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sheru\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Sheru\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

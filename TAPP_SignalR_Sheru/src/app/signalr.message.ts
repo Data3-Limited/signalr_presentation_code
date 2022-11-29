@@ -11,7 +11,6 @@ export enum SignalRServerMethods {
    info,
    reset,
    joined,
-   attack,
    attackResponse,
    getBoardState
 }

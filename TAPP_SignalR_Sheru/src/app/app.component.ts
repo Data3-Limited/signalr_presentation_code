@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, pipe, pluck, take } from 'rxjs';
-import { BoardState, GameState, WhichBoard } from './game/GameVariables';
+import { BoardState, GameState, PlayerType, WhichBoard } from './game/GameVariables';
 import { GameService } from './services/game.service';
 import { SignalRService } from './services/signalr.service';
 
@@ -15,6 +15,7 @@ export class AppComponent implements OnInit {
    //gameState$?: Observable<GameState>;
    boardLeft$?: Observable<BoardState>;
    boardRight$?: Observable<BoardState>;
+   player$?: Observable<PlayerType>;
 
    constructor(
       private signalRService: SignalRService,
@@ -27,16 +28,12 @@ export class AppComponent implements OnInit {
 
       this.signalRService.startConnection();
       this.getBoardState();
-      //this.getGameState();
 
    }
 
    getBoardState() {
+      this.player$ = this.gameService.getPlayer();
       this.boardLeft$ = this.gameService.getLeftBoardState();
       this.boardRight$ = this.gameService.getRightBoardState();
    }
-
-   //getGameState() {
-   //   this.gameState$ = this.gameService.getGameState()
-   //}
 }

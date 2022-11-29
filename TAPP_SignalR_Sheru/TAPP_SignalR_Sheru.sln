@@ -8,7 +8,7 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "TAPP_SignalR_Client", "TAPP
 		{8E1FD9E4-8844-43B3-8C32-55F436EF55E3} = {8E1FD9E4-8844-43B3-8C32-55F436EF55E3}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAPP_SignalR Server", "..\SignalR Server\TAPP_SignalR Server.csproj", "{8E1FD9E4-8844-43B3-8C32-55F436EF55E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAPP_SignalR_Server", "..\SignalR_Server\TAPP_SignalR_Server.csproj", "{8E1FD9E4-8844-43B3-8C32-55F436EF55E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -28,7 +28,8 @@ export interface BoardState {
 export enum PlayerType {
    player1,
    player2,
-   spectator
+   spectator,
+   none
 }
 
 export interface GameState {

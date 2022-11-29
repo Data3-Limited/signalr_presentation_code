@@ -21,18 +21,18 @@ export class MenuComponent implements OnInit {
    btnClick(btn: string) {
       this.dataService.buttonClicked(btn);
       switch (btn) {
-         case 'reset':
-            this.signalRController.sendReset();
-            break;
-         case 'p1':
-            this.signalRController.sendJoin(PlayerType.player1);
-            break;
-         case 'p2':
-            this.signalRController.sendJoin(PlayerType.player2);
-            break;
-         case 'spectator':
-            this.signalRController.sendJoin(PlayerType.spectator);
-            break;
+         //case 'reset':
+         //   this.signalRController.sendReset();
+         //   break;
+         //case 'p1':
+         //   this.signalRController.sendJoin(PlayerType.player1);
+         //   break;
+         //case 'p2':
+         //   this.signalRController.sendJoin(PlayerType.player2);
+         //   break;
+         //case 'spectator':
+         //   this.signalRController.sendJoin(PlayerType.spectator);
+         //   break;
       }
    }
 

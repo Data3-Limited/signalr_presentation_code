@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\bak\\1-3-22\\sheru\\uni\\programming\\TAPP SignalR\\SignalR Server\\TAPP_SignalR_Server.csproj",
+      "projectUniqueName": "H:\\bak\\1-3-22\\sheru\\uni\\programming\\TAPP SignalR\\SignalR_Server\\TAPP_SignalR_Server.csproj",
       "projectName": "TAPP_SignalR_Server",
-      "projectPath": "H:\\bak\\1-3-22\\sheru\\uni\\programming\\TAPP SignalR\\SignalR Server\\TAPP_SignalR_Server.csproj",
+      "projectPath": "H:\\bak\\1-3-22\\sheru\\uni\\programming\\TAPP SignalR\\SignalR_Server\\TAPP_SignalR_Server.csproj",
       "packagesPath": "C:\\Users\\Sheru\\.nuget\\packages\\",
-      "outputPath": "H:\\bak\\1-3-22\\sheru\\uni\\programming\\TAPP SignalR\\SignalR Server\\obj\\",
+      "outputPath": "H:\\bak\\1-3-22\\sheru\\uni\\programming\\TAPP SignalR\\SignalR_Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "H:\\bak\\1-3-22\\sheru\\uni\\programming\\TAPP SignalR\\TAPP_SignalR_Sheru\\NuGet.Config",

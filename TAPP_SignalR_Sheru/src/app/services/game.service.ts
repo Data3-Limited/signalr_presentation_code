@@ -9,7 +9,7 @@ import { BoardState, Coord, GameState, PlayerType, WhichBoard } from "../game/Ga
 export class GameService {
    API_BASE = 'https://localhost:7045/api';
 
-   private player$: BehaviorSubject<PlayerType> = new BehaviorSubject<PlayerType>(PlayerType.spectator);
+   private player$: BehaviorSubject<PlayerType> = new BehaviorSubject<PlayerType>(PlayerType.none);
    private BoardLeft$: BehaviorSubject<BoardState> = new BehaviorSubject<BoardState>({});
    private BoardRight$: BehaviorSubject<BoardState> = new BehaviorSubject<BoardState>({});
 
@@ -63,7 +63,11 @@ export class GameService {
    }
 
    getRightBoardState(): Observable<BoardState> {
-      return this.BoardRight$
+      return this.BoardRight$;
+   }
+
+   getPlayer(): Observable<PlayerType> {
+      return this.player$;
    }
 
    resetBoard(): void {
@@ -72,5 +76,6 @@ export class GameService {
       }
       this.BoardLeft$.next(blankBoard);
       this.BoardRight$.next(blankBoard);
+      this.player$.next(PlayerType.none);
    }
 }
