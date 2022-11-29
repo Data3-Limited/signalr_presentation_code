@@ -6,8 +6,13 @@
 /out-tsc
 /bazel-out
 
+# SignalR
+SignalR\ Server/bin
+SignalR\ Server/obj
+
 # Node
 TAPP_SignalR_Sheru/node_modules
+TAPP_SignalR_Sheru/.vs
 npm-debug.log
 yarn-error.log
 
