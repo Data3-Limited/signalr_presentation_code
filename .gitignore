@@ -7,10 +7,8 @@
 /bazel-out
 
 # SignalR
-SignalR\ Server/bin
-SignalR\ Server/obj
-"SignalR Server/bin"
-"SignalR Server/obj"
+SignalR_Server/bin
+SignalR_Server/obj
 
 # Node
 TAPP_SignalR_Sheru/node_modules
